@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "'Inconsolata for Powerline', 'Courier New', monospace",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.colorDecorators": false,
+    "editor.minimap.enabled": false,
+    "editor.fontWeight": "400",
+    "prettier.eslintIntegration": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5,
+    "editor.cursorBlinking": "solid",
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/rromanve.STCC/.vscodestyles.css"
+    ],
+    "editor.tabSize": 2,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+    "editor.renderIndentGuides": false,
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.renderWhitespace": "none",
+    "editor.minimap.showSlider": "always",
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": false,
+    "workbench.editor.tabCloseButton": "off",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // show snippets before any other auto completion
+    "editor.snippetSuggestions": "top",
+    // this lets you quick open multiple items in a row and now have the previous ones closed on you
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    // These are all my auto-save configs
+    "editor.formatOnSave": true,
+    // turn it off for JS
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+}
